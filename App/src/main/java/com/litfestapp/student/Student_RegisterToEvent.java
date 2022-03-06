@@ -1,0 +1,19 @@
+package com.litfestapp.student;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.litfestapp.litfest.R;
+
+public class Student_RegisterToEvent extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_student__register_to_event);
+        getSupportFragmentManager().beginTransaction().replace(
+                R.id.container , Student_Select_College.newInstance()
+        ).commitNow();
+    }
+}

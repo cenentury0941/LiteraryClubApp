@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LitFest</string>
+    <string name="loginicon_desc">Login Page App Icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_organiser_home">OrganiserHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LitFest</string>
+    <string name="nav_header_subtitle">version 1.0.1</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_signout">Sign Out</string>
+    <string name="title_activity_student_home">StudentHomeActivity</string>
+</resources>
